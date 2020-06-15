@@ -1,10 +1,22 @@
-1.Composición:
+// 1.Composición:  Se refiere a un tipo de asociación que indica relaciones de pertenencia 
+                   entre clases y una depende (o es parte) de la otra.
+                   Cuando se elimina el contenedor, el contenido también es eliminado.
+                   Se representa en UML como un rombo negro.
 
-
-  Agregación:
+     Agregación:   Se refiere a un tipo de asociación que indica que una clase pertenece a otra,
+                   pero su existencia no está totalmente ligada a la clase a la que está ligada.
+                   Cuando el contenedor es eliminado, el contenido usualmente no es destruido.
+                   Se representa en UML como un rombo blanco.
+              
 
 2. El polimorfismo es una propiedad de la propiedad orientada a objetos, la cual 
-nos permite utilizar la herencia para compartir un mismo atributo o comportamiento 
-entre subclases y que éstas reaccionen de forma distinta a un mismo llamado.
+nos permite utilizar un mismo atributo o comportamiento en distintas clases y que 
+éstas puedan reaccionar de forma distinta a un mismo llamado.
 
-3. 
+3. https://drive.google.com/file/d/1d5SaY9QPucDnKIfR5QFowTMwKN1W_QYS/view?usp=sharing
+  En un videojuego por turnos hay 3 clases de personajes: Magos, guerreros y arqueros. Aunque los tres pueden moverse y usar objetos
+  de formas similares, cada uno ataca de forma distinta. Los guerreros golpean cuerpo a cuerpo, los magos golpean desde lejos y los 
+  arqueros también golpean de lejos pero les toma un turno más
+
+4. 
+
