@@ -15,9 +15,10 @@ nos permite utilizar un mismo atributo o comportamiento en distintas clases y qu
 
 3. https://drive.google.com/file/d/1d5SaY9QPucDnKIfR5QFowTMwKN1W_QYS/view?usp=sharing
 
-  En un videojuego por turnos hay 3 clases de personajes: Magos, guerreros y arqueros. Aunque los tres pueden moverse y usar pociones
-  de formas similares, cada uno ataca a distinta distancia y a algunos les toma un turno más. Los guerreros golpean cuerpo a cuerpo, 
-  los magos golpean a 2 espacios de distancia y los arqueros también golpean de lejos pero les toma un turno más realizar esta acción.
+  En un videojuego por turnos hay 3 clases de personajes: Magos, guerreros y arqueros. Aunque los tres pueden moverse y usar 
+  pociones de formas similares, cada uno ataca a distinta distancia y a algunos les toma un turno más. Los guerreros golpean 
+  cuerpo a cuerpo, los magos golpean a 2 espacios de distancia y los arqueros también golpean a 2 de distancia pero les toma 
+  un turno más realizar esta acción.
 
 4. */
 
@@ -35,7 +36,7 @@ class Personaje {
             return `Este personaje:"${this.nombre}" no tiene definido su tipo de ataque.`
         }
         mover (){
-            
+            return `${this.nombre} se acercó un espacio al enemigo.`
         }
         usarPocion(){
             this.saludactual = this.saludactual + 20
